@@ -1,5 +1,9 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        CurrencyConverter converter = new CurrencyConverter();
+        converter.start();
     }
+
 }
